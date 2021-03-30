@@ -1,5 +1,5 @@
 {% set name = "cliche" %}
-{% set version = "0.7.44" %}
+{% set version = "0.7.45" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cliche-{{ version }}.tar.gz
-  sha256: eefd03f6a4d84d4a4a6fa8401af45583b199de89c2ebb712daefb7ba1667fde0
+  sha256: ebc955fc68960518f87331ca9c35cf08246f631202444b0f96602b66d1c7cfda
 
 
 build:
